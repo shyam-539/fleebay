@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import Footer from './components/footer/Footer';
 import Routes from './components/roots/Router'; // Your Routes component
 
 const App = () => {
