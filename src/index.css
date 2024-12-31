@@ -1,0 +1,34 @@
+/* index.css */
+body,
+html {
+  height: 100%; /* Full height */
+  margin: 0;
+}
+
+/* Apply Playfair Display to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; /* Bold for emphasis */
+}
+
+/* Apply Satoshi to body text and other elements */
+body,
+p,
+span,
+a,
+div {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400; /* Regular weight for readability */
+}
+
+/* Optional: Adjust weights if needed */
+.navbar,
+.footer {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500; /* Medium weight for distinct navigation */
+}

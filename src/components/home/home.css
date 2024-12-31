@@ -1,0 +1,64 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; 
+  background-color: #f4f4f4; 
+}
+
+.hero-content {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.text-side {
+  flex: 4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.text-side h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+}
+
+.text-side p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.cta-button {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.image-side {
+  flex: 6; /* 30% of the space */
+  background-image: url('../../assets/img/hero.png'); 
+  background-size: contain; 
+  background-position: center center;
+  background-repeat: no-repeat; 
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
